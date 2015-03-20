@@ -14,7 +14,7 @@ import Modelo.Persona;
  *
  * @author Luis alberto
  */
-public class Ejecuta {
+public class Create {
     
     public static void main(String[] args) {
            
@@ -27,9 +27,9 @@ public class Ejecuta {
         //Representaria a un Formulario de Ingreso de Datos
         Persona persona = new Persona();
         persona.setPersonaid(2);
-        persona.setNombre("Maria Yolita");
-        persona.setApellido_pat("Guerrero");
-        persona.setApellido_mat("Gonzales");
+        persona.setNombre("Maria yolita".toUpperCase());
+        persona.setApellido_pat("guerrero".toUpperCase());
+        persona.setApellido_mat("gonzales".toUpperCase());
         persona.setDni(45448683);
         //***********************************
                

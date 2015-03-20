@@ -6,6 +6,7 @@
 package Dao;
 
 import Modelo.Persona;
+import java.util.List;
 
 /**
  *
@@ -14,5 +15,8 @@ import Modelo.Persona;
 public interface PersonaDao {
     
     public boolean Insertar(Persona persona);
-    
+    public List<Persona> listar();
+    public boolean Eliminar(int id);
+    public boolean Actualizar(Persona persona);
+    public Persona ObtenerId(int id);
 }
